@@ -1,9 +1,17 @@
+# - post_type_id: <%= PolicyDoc.post_type_id %>
+#   title: Terms of Service
+#   body_markdown: $FILE posts/tos.html
+#   body: $FILE posts/tos.html
+#   doc_slug: tos
+#   help_category: Legal
+#   community_id: ~
+
 - post_type_id: <%= PolicyDoc.post_type_id %>
-  title: Terms of Service
-  body_markdown: $FILE posts/tos.html
-  body: $FILE posts/tos.html
-  doc_slug: tos
-  help_category: Legal
+  title: Posting Guidelines
+  body_markdown: $FILE posts/guidelines.html
+  body: $FILE posts/guidelines.html
+  doc_slug: guidelines
+  help_category: Policy
   community_id: ~
 
 - post_type_id: <%= PolicyDoc.post_type_id %>
@@ -164,4 +172,3 @@
   body: $FILE posts/advanced-formatting.html
   doc_slug: advanced-formatting
   help_category: Site Information
-
