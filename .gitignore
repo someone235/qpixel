@@ -76,3 +76,5 @@ node_modules
 # YARD data
 .yardoc
 doc/
+
+/config/credentials/production.key
