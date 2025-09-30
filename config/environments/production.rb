@@ -104,4 +104,8 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   config.active_job.queue_adapter = :async
+  config.hosts << "qa.kas.pa"
+  config.force_ssl = true
+  config.action_controller.default_url_options = { host: "qa.kas.pa", protocol: "https" }
+  # config.action_controller.forgery_protection_origin_check = false  # TEMP for debugging
 end
